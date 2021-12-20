@@ -114,9 +114,27 @@ public class Main {
                         }
                         {
                             // task 10
-                            System.out.print("\n task 10: Вивести перших 20 символів з таблиці ASCI\n");
-                            for (char i=60; i<=80; i++) {
-                            System.out.print((char) i+ " ");
+                            System.out.print("\n task 10: Вивести перших 20 символів з таблиці ASCI \n");
+                            for (char i = 60; i <= 80; i++) {
+                                System.out.print((char) i + " ");
+                            }
+                            System.out.println();
+                            {
+                                // task *
+                                System.out.print("\n task *: Заповнити масив рандомними числами, вивести їх, потім поміняти місцями парні з непарними \n");
+                                int[] arr = new int[4];
+                                for (int i = 0; i < arr.length; i++) {
+                                    arr[i] = random.nextInt();
+                                }
+                                System.out.println(Arrays.toString(arr));
+                                for (int i = 0; i < arr.length; i += 2) {
+
+                                    int t = arr[i];
+                                    arr[i] = arr[i + 1];
+                                    arr[i + 1] = t;
+                                }
+                                System.out.println(Arrays.toString(arr));
+
                             }
                         }
                     }
