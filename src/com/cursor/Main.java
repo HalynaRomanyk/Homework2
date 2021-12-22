@@ -55,10 +55,11 @@ public class Main {
             {
                 // task 5
                 System.out.print("\n task 5: Вивести значення всіх парних індексів масиву\n");
-                int[] arr2 = new int[10];
+                //int[] arr2 = new int[10];
+                int[] arr2=new int[] {52, 45, 32, 7, 64, 12, 87, 78, 98, 23};
                 for (int i = 0; i < arr2.length; i++) {
                     if (i % 2 == 0) {
-                        arr2[i] = i;
+                        //arr2[i] = i;
                         System.out.println(arr2[i]);
                     }
                 }
@@ -105,9 +106,9 @@ public class Main {
                             System.out.print("\n task 9: Вивести суму значень всіх парних індексів\n");
                             int[] array = new int[]{52, 45, 32, 7, 64, 12, 87, 78, 98, 23};
                             int sum_parn = 0;
-                            for (int x : array) {
-                                if (x % 2 == 0) {
-                                    sum_parn += x;
+                            for (int i = 0; i < array.length; i++) {
+                                if (i % 2 == 0) {
+                                    sum_parn += array[i];
                                 }
                             }
                             System.out.println("Сума значень всіх парних індексів: " + sum_parn);
@@ -115,7 +116,7 @@ public class Main {
                         {
                             // task 10
                             System.out.print("\n task 10: Вивести перших 20 символів з таблиці ASCI \n");
-                            for (char i = 60; i <= 80; i++) {
+                            for (char i = 32; i < 52; i++) {
                                 System.out.print((char) i + " ");
                             }
                             System.out.println();
