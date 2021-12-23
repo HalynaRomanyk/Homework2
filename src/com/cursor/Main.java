@@ -48,15 +48,14 @@ public class Main {
                 System.out.print("\n task 4: Вивести суму всіх значень кратних 3\n");
                 int summ = 0;
                 for (int i = 0; i < 15; i++)
-                    if (i % 3 == 0)
-                        summ += i;
+                    if (i % 3 == 0) summ += i;
                 System.out.println("Cума всіх значень кратних 3: " + summ);
             }
             {
                 // task 5
                 System.out.print("\n task 5: Вивести значення всіх парних індексів масиву\n");
                 //int[] arr2 = new int[10];
-                int[] arr2=new int[] {52, 45, 32, 7, 64, 12, 87, 78, 98, 23};
+                int[] arr2 = new int[]{52, 45, 32, 7, 64, 12, 87, 78, 98, 23};
                 for (int i = 0; i < arr2.length; i++) {
                     if (i % 2 == 0) {
                         //arr2[i] = i;
