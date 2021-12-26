@@ -7,15 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // task 1 a
-//        int[] arr = {2, 4, 6, 8, 10};
-//
-//        System.out.println(arr[0]);
-//        System.out.println(arr[1]);
-//        System.out.println(arr[2]);
-//        System.out.println(arr[3]);
-//        System.out.println(arr[4]);
-//    }
         {
             // task 1 b
             System.out.print("\n task 1: Заповнити масив тільки парними числами\n");
